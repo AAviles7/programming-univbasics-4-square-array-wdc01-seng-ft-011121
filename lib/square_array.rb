@@ -3,7 +3,7 @@ def square_array(array)
   new_numbers = Array.new
   array.length.times do
     temp = array.shift
-    new_numbers.push(temp.sqrt)
+    new_numbers.push(sqrt.temp)
   end
   return new_numbers
 end
